@@ -31,7 +31,7 @@
 7. El revisor se encargará de validar que los cambios propuestos estan ok y entonces aceptará cambio y guardara la pull request.
 
 
-## GUIA IMPLEMENTACIÓN AZURE ETL
+## Creando los primeros servicios en Azure
 
 1. **Garantizar que tiene una cuenta de Microsofot activa**
 2. Crear un grupo de recursos.
@@ -62,7 +62,7 @@ NOTA: cada vez que cargue un fichero valide que este se carga con acceso de uso 
 
 ![img.png](img.png)
 
-## CREANDO UN PRIMER ETL EN AZURE DATA FACTORY
+## Creando un primer ETL en data factory
 
 1. En db visualizer, dentro de la base de datos crea una tabla con el comando create table de SQL. 
 2. Carga el fichero que tiene las columnas del create table en el azure bolb storage (utiliza en explorador).
@@ -77,6 +77,9 @@ NOTA: cada vez que cargue un fichero valide que este se carga con acceso de uso 
 9. Ejecuta el pipeline, y en caso de que todo este correcto publicalo.
 
 ![img_1.png](img_1.png)
+
+## See: 
+https://www.youtube.com/watch?v=EpDkxTHAhOs
 
 ## Developers
 ----------------------

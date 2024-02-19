@@ -81,6 +81,19 @@ NOTA: cada vez que cargue un fichero valide que este se carga con acceso de uso 
 ## See: 
 https://www.youtube.com/watch?v=EpDkxTHAhOs
 
+## Primeros pasos son Azure Databricks
+
+1. Crea la instancia de Azure databricks (Que quede dentro del grupo de recursos que estas utilizando)
+2. Abre el espacio de databricks
+3. En la parte superior derecha, en donde sale tu cuenta, despliega y selecciona ajustes de usuario.
+4. En ajustes, desarrollador, crea el token de acceso y guardalo (Muy importante), te lo pediran para vincular el servicio.
+5. Vincula el github, en ajustes, pero esta vez selecciona linked services/cuentas vinculadas y sigue los pasos...
+6. Publica tus resultados en git haciendo el respectivo commit y push, si te paras en main o en la rama se abre la opción.
+7. Para leer data de una base de datos de Azure SQL con pyspark por favor garantiza que databricks tiene un red virtual vinculada.
+8. Agrega un elemento de databricks, por ejemplo un notebook al pipleine.
+9. Te va a pedir que vincules un servicio, para esto tienes el token, busca el pc con el que probaste tus notebook y di que se ejecute con el.
+10. No se te olvide que siempre debes garantizar un cluster (computo) para ejecutar un servicio de databricks.
+
 ## Developers
 ----------------------
 The developers responsible for the development and maintaining of this project.
